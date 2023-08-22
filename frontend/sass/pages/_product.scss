@@ -1,0 +1,49 @@
+.ser{
+    background-color: $color-service;
+    display: flex;
+    padding:1rem 4rem;
+    margin: 4rem 0;
+    gap: 4rem;
+
+    &_txt{
+        
+        h2 {
+            color:$color-service-t;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            
+
+        }
+
+        span{
+            padding:2rem 0;
+            margin-bottom: 1rem;
+            font-family: Raleway;
+
+            h4{
+                font-weight: 700;
+                font-size: $default-font-size;
+                color:$color-service-t;
+            }
+
+            p{
+                color:$color-service-tp;
+                font-size: $default-font-size;
+                margin-bottom: 2rem;
+            }
+
+
+        }
+    }
+
+    &_obj{
+        flex-basis: 45%;
+        padding:3rem 4rem;
+        margin:4rem;
+
+        video{
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+}

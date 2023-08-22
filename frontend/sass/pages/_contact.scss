@@ -1,0 +1,71 @@
+.work{
+    background-color: $color-service;
+    margin:5rem 0;
+
+    &-itm{
+        align-self: flex-end;
+        padding-bottom: 4rem;
+    }
+
+   
+
+    
+    h2,
+    h3, 
+    h4 {
+        font-family:Puritan ; 
+        color: $color-black-cap; 
+    }
+    h3{
+        margin-bottom: 2rem;
+    }
+    h4{
+        font-size:1.6rem;
+
+        
+        
+    }
+    img{
+        width:90%;
+        padding-top: 2rem;
+    }
+    
+    &-icon{
+        width:1.5rem;
+        height:1.5rem;
+        fill:$color-read-more;
+    }
+    
+    button{
+        padding: 1rem;
+        color:$color-white;
+        background-color:$color-read-more ;
+        outline: none;
+        border: none;
+        cursor:pointer;
+        font-weight: 500;
+        font-size: $default-font-size;
+
+
+    }
+    button:hover{
+        background-color: $color-read-deep;
+        border: 0.5px solid $color-read-more;
+    }
+    p{
+        padding: 0 2rem 2rem;
+    }
+
+
+
+
+}
+
+[class^="work-h"]{
+    &:not(first-child){
+        margin-bottom: 1rem;
+    }
+
+}
+
+

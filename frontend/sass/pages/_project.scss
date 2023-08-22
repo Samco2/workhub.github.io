@@ -1,0 +1,38 @@
+.gal_text{
+    font-family: Raleway;
+    color: $color-black-cap;
+}
+
+.gal{
+    display: flex;
+    padding:1rem 2rem;
+    gap: 2.2rem;
+
+    .obj{
+        
+        img{
+            width:22rem;
+            border-radius: 2rem;
+            height: 22rem;
+            background-color: gray;
+            
+        }
+       h5, p{
+        
+        position: relative;
+        top: -22rem;
+        left: 1rem;
+        font-size: 2rem;
+
+        }
+        p {
+            color: $color-black;
+            font-weight: 400;
+            
+        }
+        h5{
+            color:$color-white;
+            font-weight: 700;
+        }
+    }
+}

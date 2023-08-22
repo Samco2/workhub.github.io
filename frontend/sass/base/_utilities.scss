@@ -1,0 +1,68 @@
+.site-pad {
+    padding: 5em 0;
+}
+.log{
+    font-weight: 700;
+}
+
+.btn-p{
+    background-color: $color-button-main;
+    padding: 0.05rem;
+    border-radius:0.5rem ;
+}
+
+.icon--primary {
+    fill: $color-white-text !important;
+}
+.icon--down {
+    fill: $color-service-t !important;
+}
+
+.icon {
+    width: 1rem;
+    height: 1rem;
+}
+
+.d-fl {
+    display: flex!important;
+}
+.algn{
+    align-items: center;
+    justify-content: center;
+}
+.mg-b{
+    margin-bottom: 1rem;
+}
+.img{
+    max-width:25rem;
+}
+.rd-m{
+    color:$color-read-more;
+    text-decoration: none;
+    font-family: raleway;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.mb-4 {
+    margin-bottom: 3rem;
+}
+.mb-5 {
+    margin-bottom: 5rem;
+}
+
+.align{
+    align-items: center;
+    justify-content: center;
+}
+.pdt-3{
+    padding-top: 4rem;
+}
+.jut-l{
+    justify-content: flex-start;
+}
+.mg{
+    margin: 0 6rem;
+}
+.mg-r{
+    margin:0 2rem 2rem 2rem;
+}
